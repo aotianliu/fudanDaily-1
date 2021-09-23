@@ -95,9 +95,9 @@ def notify(_title, _message=None):
         print("未配置PUSH_KEY！")
         return
 
-    if not _message:
-        _message = _title
-
+#     if not _message:
+#         _message = _title
+    _message = _title
     print(_title)
 #     print(_message)
 
