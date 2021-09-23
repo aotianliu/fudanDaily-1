@@ -99,7 +99,7 @@ def notify(_title, _message=None):
         _message = _title
 
     print(_title)
-    print(_message)
+#     print(_message)
 
     _response = requests.post(f"https://sc.ftqq.com/{PUSH_KEY}.send", {"text": _title, "desp": _message})
 
